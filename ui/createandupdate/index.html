@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tambah / Edit Catatan</title>
+  </head>
+  <body>
+    <h1>Tambah / Edit Catatan</h1>
+    <a href="../list/index.html">Kembali ke Daftar</a>
+    <hr />
+    <form>
+      <div>
+        <label>Judul Catatan:</label><br />
+        <input type="text" name="title" placeholder="Input judul" required />
+      </div>
+      <br />
+      <div>
+        <label>Isi Catatan:</label><br />
+        <textarea
+          name="content"
+          rows="5"
+          cols="30"
+          placeholder="isi catatan..."
+          required
+        ></textarea>
+      </div>
+      <br />
+      <button type="submit">save</button>
+    </form>
+  </body>
+</html>
